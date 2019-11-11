@@ -16,12 +16,37 @@ section, footer, header {
   text-transform: uppercase;
 }
 
+.global-img-arrow {
+  padding: 0 0 2px 7px;
+}
+
 .content {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 0 100%;
   background-image: url(../img/content.png);
   height: 1057px;
+}
+
+.title {
+  position: absolute;
+  z-index: 50;
+  margin-left: 219px;
+  border-radius: 0 0 10px 10px;
+  background-color: #fa5c65;
+  width: 140px;
+  height: 74px;
+}
+
+.title__item {
+  text-align: center;
+  padding-top: 43px;
+  font-size: 20px;
+  color: white;
+}
+
+.title__item-dot {
+  color: black;
 }
 
 .header {
@@ -31,7 +56,6 @@ section, footer, header {
   text-transform: uppercase;
   padding-top: 30px;
   text-align: left;
-  padding-left: 100px;
 }
 
 .header-nav {

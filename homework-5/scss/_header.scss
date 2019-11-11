@@ -6,6 +6,27 @@
 	height: 1057px;
 }
 
+.title {
+	position: absolute;
+  z-index: 50;
+  margin-left: 219px;
+  border-radius: 0 0 10px 10px;
+  background-color: #fa5c65;
+  width: 140px;
+  height: 74px;
+}
+
+.title__item {
+	text-align: center;
+  padding-top: 43px;
+  font-size: 20px;
+  color: white;
+}
+
+.title__item-dot {
+	color: black;	
+}
+
 .header {
 	display: flex;
 	justify-content: flex-end;
